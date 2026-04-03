@@ -1,0 +1,101 @@
+<svg width="1200" height="640" viewBox="0 0 1200 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="60" x2="1120" y2="580" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.5" stop-color="#0B1F38"/>
+      <stop offset="1" stop-color="#0F3D5E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="190" y1="102" x2="1014" y2="508" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F172A" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#111827" stop-opacity="0.78"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="640" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect x="24" y="24" width="1152" height="592" rx="32" fill="url(#bg)"/>
+  <rect x="24" y="24" width="1152" height="592" rx="32" stroke="#1E293B" stroke-width="2"/>
+
+  <circle cx="1054" cy="116" r="120" fill="#38BDF8" fill-opacity="0.08"/>
+  <circle cx="1040" cy="500" r="150" fill="#22C55E" fill-opacity="0.07"/>
+  <circle cx="150" cy="520" r="130" fill="#F59E0B" fill-opacity="0.06"/>
+
+  <path d="M120 472C210 412 288 448 368 396C448 344 524 238 642 246C748 254 810 350 890 356C968 362 1028 320 1100 276" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" opacity="0.95"/>
+  <path d="M120 472C210 412 288 448 368 396C448 344 524 238 642 246C748 254 810 350 890 356C968 362 1028 320 1100 276" stroke="#E2E8F0" stroke-opacity="0.18" stroke-width="18" stroke-linecap="round"/>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="72" width="1056" height="496" rx="28" fill="url(#panel)" stroke="#334155"/>
+  </g>
+
+  <text x="108" y="140" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">NextEdge Deusto</text>
+  <text x="108" y="178" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="22">Mapa, asistente LLM y servicios conectados en una sola plataforma</text>
+
+  <g>
+    <rect x="104" y="238" width="250" height="210" rx="24" fill="#0B1220" stroke="#134E4A" stroke-width="2"/>
+    <text x="132" y="280" fill="#5EEAD4" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">next_frontend</text>
+    <rect x="132" y="306" width="94" height="118" rx="16" fill="#111827" stroke="#0EA5A4"/>
+    <rect x="238" y="314" width="88" height="62" rx="10" fill="#111827" stroke="#0EA5A4"/>
+    <rect x="246" y="384" width="72" height="8" rx="4" fill="#0EA5A4" fill-opacity="0.8"/>
+    <circle cx="179" cy="323" r="5" fill="#0EA5A4"/>
+    <rect x="142" y="334" width="74" height="56" rx="10" fill="#0F766E" fill-opacity="0.25"/>
+    <path d="M150 381C166 364 182 368 198 352" stroke="#2DD4BF" stroke-width="4" stroke-linecap="round"/>
+    <text x="132" y="474" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="18">desktop admin + mobile app</text>
+  </g>
+
+  <g>
+    <rect x="474" y="198" width="252" height="258" rx="26" fill="#0B1220" stroke="#1D4ED8" stroke-width="2"/>
+    <text x="504" y="242" fill="#93C5FD" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">next_service</text>
+    <text x="504" y="272" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="18">gateway + orchestration</text>
+
+    <rect x="504" y="298" width="88" height="38" rx="12" fill="#172554" stroke="#3B82F6"/>
+    <text x="525" y="323" fill="#DBEAFE" font-family="Arial, Helvetica, sans-serif" font-size="16">assistant</text>
+
+    <rect x="604" y="298" width="88" height="38" rx="12" fill="#172554" stroke="#3B82F6"/>
+    <text x="631" y="323" fill="#DBEAFE" font-family="Arial, Helvetica, sans-serif" font-size="16">scoring</text>
+
+    <rect x="504" y="348" width="88" height="38" rx="12" fill="#172554" stroke="#3B82F6"/>
+    <text x="517" y="373" fill="#DBEAFE" font-family="Arial, Helvetica, sans-serif" font-size="16">compliance</text>
+
+    <rect x="604" y="348" width="88" height="38" rx="12" fill="#172554" stroke="#3B82F6"/>
+    <text x="622" y="373" fill="#DBEAFE" font-family="Arial, Helvetica, sans-serif" font-size="16">calendar</text>
+
+    <rect x="504" y="398" width="88" height="38" rx="12" fill="#172554" stroke="#3B82F6"/>
+    <text x="521" y="423" fill="#DBEAFE" font-family="Arial, Helvetica, sans-serif" font-size="16">ingest</text>
+
+    <rect x="604" y="398" width="88" height="38" rx="12" fill="#172554" stroke="#3B82F6"/>
+    <text x="616" y="423" fill="#DBEAFE" font-family="Arial, Helvetica, sans-serif" font-size="16">gasolineras</text>
+  </g>
+
+  <g>
+    <rect x="842" y="218" width="236" height="220" rx="24" fill="#0B1220" stroke="#B45309" stroke-width="2"/>
+    <text x="874" y="262" fill="#FCD34D" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Copilot Experience</text>
+    <circle cx="892" cy="318" r="22" fill="#78350F" stroke="#F59E0B"/>
+    <path d="M876 350C886 338 897 332 912 332C927 332 939 339 948 350" stroke="#FBBF24" stroke-width="4" stroke-linecap="round"/>
+    <rect x="928" y="296" width="110" height="20" rx="10" fill="#1F2937"/>
+    <rect x="928" y="326" width="86" height="20" rx="10" fill="#1F2937"/>
+    <rect x="928" y="356" width="96" height="20" rx="10" fill="#1F2937"/>
+    <text x="874" y="404" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="18">mapa + guidance + assistant</text>
+  </g>
+
+  <path d="M356 342H474" stroke="#5EEAD4" stroke-width="6" stroke-linecap="round"/>
+  <path d="M452 330L474 342L452 354" fill="none" stroke="#5EEAD4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M726 342H842" stroke="#93C5FD" stroke-width="6" stroke-linecap="round"/>
+  <path d="M820 330L842 342L820 354" fill="none" stroke="#93C5FD" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="378" y="324" fill="#99F6E4" font-family="Arial, Helvetica, sans-serif" font-size="16">events, auth, gps, ws</text>
+  <text x="744" y="324" fill="#BFDBFE" font-family="Arial, Helvetica, sans-serif" font-size="16">assistant actions + domain services</text>
+
+  <rect x="104" y="500" width="974" height="40" rx="20" fill="#0F172A" stroke="#334155"/>
+  <text x="136" y="526" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="18">Frontend visible al usuario</text>
+  <circle cx="330" cy="520" r="5" fill="#334155"/>
+  <text x="350" y="526" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="18">Gateway y microservicios</text>
+  <circle cx="590" cy="520" r="5" fill="#334155"/>
+  <text x="610" y="526" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="18">LLM guiando la experiencia sobre mapa y contexto</text>
+</svg>
