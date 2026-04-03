@@ -1,21 +1,21 @@
 # NextEdge Deusto
 
 <p align="center">
-  <img src="./assets/nextedge-platform.svg" alt="NextEdge Deusto platform overview" />
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/next_frontend-desktop%20%2B%20mobile-0f766e?style=for-the-badge" alt="next_frontend" />
   <img src="https://img.shields.io/badge/next_service-gateway%20%2B%20microservices-1d4ed8?style=for-the-badge" alt="next_service" />
   <img src="https://img.shields.io/badge/assistant-LLM%20driven-f59e0b?style=for-the-badge" alt="assistant" />
 </p>
 
-NextEdge Deusto está construyendo un copiloto operativo donde **`next_frontend`** y **`next_service`** trabajan como una sola plataforma:
+NextEdge Deusto está construyendo un copiloto operativo donde **`next_frontend`** y **`next_service`** funcionan como una sola plataforma:
 
 - una experiencia **desktop** para operación y supervisión,
 - una experiencia **mobile** con mapa, viaje en vivo y asistencia,
 - un **gateway backend** que conecta microservicios de dominio,
 - y un asistente LLM que guía al usuario y activa capacidades del sistema.
+
+<p align="center">
+  <img src="./assets/nextedge-platform.svg" alt="NextEdge Deusto platform overview" />
+</p>
 
 ## Núcleo Del Producto
 
