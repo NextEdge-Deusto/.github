@@ -1,6 +1,10 @@
 # NextEdge Deusto
 
 <p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,50:1d4ed8,100:22c55e&text=NextEdge%20Deusto&fontColor=ffffff&fontAlignY=38&desc=Copilot%20platform%20for%20maps,%20assistant%20and%20connected%20services&descAlignY=58" alt="NextEdge Deusto banner" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/next_frontend-desktop%20%2B%20mobile-0f766e?style=for-the-badge" alt="next_frontend" />
   <img src="https://img.shields.io/badge/next_service-gateway%20%2B%20microservices-1d4ed8?style=for-the-badge" alt="next_service" />
   <img src="https://img.shields.io/badge/assistant-LLM%20driven-f59e0b?style=for-the-badge" alt="assistant" />
@@ -12,10 +16,6 @@ NextEdge Deusto está construyendo un copiloto operativo donde **`next_frontend`
 - una experiencia **mobile** con mapa, viaje en vivo y asistencia,
 - un **gateway backend** que conecta microservicios de dominio,
 - y un asistente LLM que guía al usuario y activa capacidades del sistema.
-
-<p align="center">
-  <img src="./assets/nextedge-platform.svg" alt="NextEdge Deusto platform overview" />
-</p>
 
 ## Núcleo Del Producto
 
@@ -78,3 +78,7 @@ flowchart LR
 - `next_frontend` y `next_service` son el centro del desarrollo.
 - El mapa, el asistente y los servicios de dominio forman la experiencia principal.
 - El resto de repos alimentan capacidades concretas del copiloto.
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0f172a,50:1d4ed8,100:22c55e" alt="NextEdge Deusto footer" />
+</p>
